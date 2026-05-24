@@ -40,15 +40,7 @@ End-to-end data pipeline that collects environmental data from multiple global c
 - **Visualization:** Power BI
 - **Data Source:** REST APIs (OpenWeather)
 
-├── notebooks/
-│ ├── 01_ingest_weather_data.ipynb # API ingestion to Bronze
-│ ├── 02_transform_bronze_to_silver.ipynb # Data cleaning & flattening
-│ └── 03_create_gold_analytics.ipynb # Aggregations & joins
-├── pipelines/
-│ └── master_environmental_pipeline.json # Orchestration workflow
-├── power_bi/
-│ └── Environmental_Analytics_Dashboard.pbix
-└── README.md
+<img width="523" height="176" alt="image" src="https://github.com/user-attachments/assets/2cc7ab04-7f29-41d6-834a-e87d7ae5389b" />
 
 
 ## 🚀 Features
