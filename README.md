@@ -1,4 +1,4 @@
-# fabric-environmental-monitoring
+# microsoft-fabric-environmental-monitoring
 
 A cloud-based data engineering project that ingests, processes, and visualizes real-time weather and air quality data using Microsoft Fabric.
 
