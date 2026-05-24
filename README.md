@@ -7,29 +7,7 @@ A cloud-based data engineering project that ingests, processes, and visualizes r
 End-to-end data pipeline that collects environmental data from multiple global cities, processes it through a medallion architecture, and delivers actionable insights via interactive dashboards.
 
 ## 🏗️ Architecture
-┌──────────────┐
-│ Data Source │ OpenWeather API (Weather + Air Quality)
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Bronze Layer │ Raw JSON files in Lakehouse
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Silver Layer │ Cleaned Delta Tables (PySpark)
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Gold Layer │ Analytics-Ready Tables
-└──────┬───────┘
-│
-▼
-┌──────────────┐
-│ Power BI │ Interactive Dashboards
-└──────────────┘
+<img width="389" height="313" alt="image" src="https://github.com/user-attachments/assets/e56ae2bb-f779-4b10-8a68-df80ac11bc9f" />
 
 ## 🛠️ Tech Stack
 
